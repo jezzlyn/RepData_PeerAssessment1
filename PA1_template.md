@@ -292,7 +292,7 @@ p <- g +
   facet_grid(dayOfWeek ~ .) + 
   labs(x = "Five-minute time intervals") +
   labs(y = "Average number of steps") +
-  labs(title = expression("Average Number of Steps by Time Interval and Day of Week"))
+  labs(title = "Average Number of Steps by Time Interval and Day of Week")
 print(p)
 ```
 
